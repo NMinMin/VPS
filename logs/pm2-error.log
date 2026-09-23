@@ -738,3 +738,104 @@ ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust prox
   code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
   help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
 }
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}

@@ -575,15 +575,31 @@ Secret: ****** (Lưu trong file .env)`}</pre>
                   <thead>
                     <tr>
                       <th>Thời gian</th>
-                      <th>Nguồn</th>
+                      <th>Commit</th>
                       <th>Trạng thái</th>
                     </tr>
                   </thead>
                   <tbody>
                     {deployHistory.map(d => (
                       <tr key={d.id}>
-                        <td style={{ fontSize: '0.8rem' }}>{new Date(d.timestamp).toLocaleTimeString('vi-VN')}</td>
-                        <td>{d.source}</td>
+                        <td style={{ fontSize: '0.8rem', whiteSpace: 'nowrap' }}>{new Date(d.timestamp).toLocaleTimeString('vi-VN')}</td>
+                        <td>
+                          <span style={{ 
+                            fontFamily: 'var(--font-mono)', 
+                            background: 'rgba(99, 102, 241, 0.2)', 
+                            color: '#818cf8', 
+                            padding: '0.2rem 0.45rem', 
+                            borderRadius: '5px',
+                            fontWeight: 700,
+                            marginRight: '0.45rem',
+                            fontSize: '0.8rem'
+                          }}>
+                            {d.commitHash || 'main'}
+                          </span>
+                          <span style={{ color: '#f1f5f9', fontSize: '0.825rem' }}>
+                            {d.commitMessage || d.source}
+                          </span>
+                        </td>
                         <td>
                           <span className={`badge ${d.status === 'SUCCESS' ? 'badge-success' : 'badge-miss'}`}>
                             {d.status}

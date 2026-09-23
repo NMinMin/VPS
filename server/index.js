@@ -243,7 +243,13 @@ app.post('/api/webhook/github', (req, res) => {
     return res.json({ success: true, message: 'Pong! Webhook kết nối thành công tới VPS CloudPanel.' });
   }
 
-  const record = triggerAutoDeploy(`GitHub Webhook Event: ${event}`);
+  const commitInfo = {
+    hash: req.body?.head_commit?.id?.slice(0, 7) || req.body?.after?.slice(0, 7) || '',
+    message: req.body?.head_commit?.message || '',
+    author: req.body?.head_commit?.author?.name || req.body?.pusher?.name || 'GitHub'
+  };
+
+  const record = triggerAutoDeploy(`GitHub Webhook (${event})`, commitInfo);
   return res.json({
     success: true,
     message: 'Tín hiệu Webhook đã được ghi nhận. Quá trình Pull -> Build -> Reload PM2 đang chạy ngầm.',
