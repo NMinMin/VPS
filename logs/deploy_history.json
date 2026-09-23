@@ -1,5 +1,16 @@
 [
   {
+    "id": "DEP-952b2a9",
+    "source": "Git Commit",
+    "commitHash": "952b2a9",
+    "commitMessage": "feat: auto-sync git commits to deploy history",
+    "author": "phuocadmin",
+    "timestamp": "2026-09-23T17:57:42.000Z",
+    "status": "SUCCESS",
+    "exitCode": 0,
+    "logs": "Commit [952b2a9] feat: auto-sync git commits to deploy history bởi phuocadmin"
+  },
+  {
     "id": "DEP-291c14a",
     "source": "Git Commit",
     "commitHash": "291c14a",
