@@ -13,7 +13,7 @@ dotenv.config();
 import { cacheEngine } from './cache.js';
 import { pool, testDbConnection } from './db.js';
 import { apiLimiter, strictLimiter, rateLimitMetrics } from './rateLimiter.js';
-import { verifyGitHubSignature, triggerAutoDeploy, deployHistory } from './webhook.js';
+import { verifyGitHubSignature, triggerAutoDeploy, deployHistory, syncGitCommitsToHistory } from './webhook.js';
 import { monitorState, checkSystemHealth, sendTelegramAlert } from './alert-monitor.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -258,7 +258,8 @@ app.post('/api/webhook/github', (req, res) => {
 });
 
 app.get('/api/webhook/history', (req, res) => {
-  res.json({ success: true, history: deployHistory });
+  const history = syncGitCommitsToHistory();
+  res.json({ success: true, history });
 });
 
 app.post('/api/deploy/trigger', strictLimiter, (req, res) => {

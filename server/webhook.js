@@ -34,6 +34,77 @@ function saveHistory(history) {
 
 export const deployHistory = loadHistory();
 
+export function syncGitCommitsToHistory() {
+  try {
+    const rawLog = execSync('git log -n 25 --pretty=format:"%h@@@%s@@@%an@@@%cI"', { 
+      cwd: projectRoot,
+      encoding: 'utf-8' 
+    }).trim();
+
+    if (!rawLog) return deployHistory;
+
+    const commits = rawLog.split('\n').filter(Boolean).map(line => {
+      const [hash, message, author, isoDate] = line.split('@@@');
+      return { 
+        hash: hash?.trim(), 
+        message: message?.trim() || '', 
+        author: author?.trim() || 'Git', 
+        timestamp: isoDate ? new Date(isoDate.trim()).toISOString() : new Date().toISOString() 
+      };
+    });
+
+    const current = loadHistory();
+    const existingMap = new Map();
+    for (const item of current) {
+      if (item.commitHash) {
+        existingMap.set(item.commitHash.toLowerCase().slice(0, 7), item);
+      }
+    }
+
+    for (const c of commits) {
+      if (!c.hash) continue;
+      const shortHash = c.hash.toLowerCase().slice(0, 7);
+      if (existingMap.has(shortHash)) {
+        const existing = existingMap.get(shortHash);
+        if (!existing.commitMessage || existing.commitMessage === 'Manual deploy') {
+          existing.commitMessage = c.message;
+        }
+        if (!existing.author || existing.author === 'GitHub') {
+          existing.author = c.author;
+        }
+      } else {
+        const newItem = {
+          id: `DEP-${c.hash}`,
+          source: 'Git Commit',
+          commitHash: c.hash,
+          commitMessage: c.message,
+          author: c.author,
+          timestamp: c.timestamp,
+          status: 'SUCCESS',
+          exitCode: 0,
+          logs: `Commit [${c.hash}] ${c.message} bởi ${c.author}`
+        };
+        current.push(newItem);
+        existingMap.set(shortHash, newItem);
+      }
+    }
+
+    current.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+
+    deployHistory.length = 0;
+    deployHistory.push(...current.slice(0, 30));
+    saveHistory(deployHistory);
+
+    return deployHistory;
+  } catch (err) {
+    console.warn('[Webhook] syncGitCommitsToHistory error:', err.message);
+    return deployHistory;
+  }
+}
+
+// Tự động đồng bộ ngay khi khởi động
+syncGitCommitsToHistory();
+
 export function verifyGitHubSignature(req) {
   const secret = process.env.WEBHOOK_SECRET || 'phuoc_super_secure_webhook_secret_key_2026';
   const signature = req.headers['x-hub-signature-256'];

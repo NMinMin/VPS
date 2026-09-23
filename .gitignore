@@ -1,2 +1,6 @@
 !.gitignore
 .env
+.deploy_backup/
+logs/deploy.log
+logs/pm2-*.log
+logs/system-metrics.log

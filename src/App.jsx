@@ -582,7 +582,9 @@ Secret: ****** (Lưu trong file .env)`}</pre>
                   <tbody>
                     {deployHistory.map(d => (
                       <tr key={d.id}>
-                        <td style={{ fontSize: '0.8rem', whiteSpace: 'nowrap' }}>{new Date(d.timestamp).toLocaleTimeString('vi-VN')}</td>
+                        <td style={{ fontSize: '0.8rem', whiteSpace: 'nowrap' }}>
+                          {new Date(d.timestamp).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })} ({new Date(d.timestamp).toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' })})
+                        </td>
                         <td>
                           <span style={{ 
                             fontFamily: 'var(--font-mono)', 
@@ -599,6 +601,11 @@ Secret: ****** (Lưu trong file .env)`}</pre>
                           <span style={{ color: '#f1f5f9', fontSize: '0.825rem' }}>
                             {d.commitMessage || d.source}
                           </span>
+                          {d.author && (
+                            <span style={{ color: 'var(--text-muted)', fontSize: '0.75rem', marginLeft: '0.4rem' }}>
+                              • {d.author}
+                            </span>
+                          )}
                         </td>
                         <td>
                           <span className={`badge ${d.status === 'SUCCESS' ? 'badge-success' : 'badge-miss'}`}>

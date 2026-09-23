@@ -1,5 +1,27 @@
 [
   {
+    "id": "DEP-291c14a",
+    "source": "Git Commit",
+    "commitHash": "291c14a",
+    "commitMessage": "fix Deploy Logs",
+    "author": "phuocadmin",
+    "timestamp": "2026-09-23T17:48:51.000Z",
+    "status": "SUCCESS",
+    "exitCode": 0,
+    "logs": "Commit [291c14a] fix Deploy Logs bởi phuocadmin"
+  },
+  {
+    "id": "DEP-d384764",
+    "source": "Git Commit",
+    "commitHash": "d384764",
+    "commitMessage": "feat: display commit hash and message in deploy table",
+    "author": "phuocadmin",
+    "timestamp": "2026-09-23T17:47:27.000Z",
+    "status": "SUCCESS",
+    "exitCode": 0,
+    "logs": "Commit [d384764] feat: display commit hash and message in deploy table bởi phuocadmin"
+  },
+  {
     "id": "DEP-1774374245000",
     "source": "GitHub Webhook (push)",
     "commitHash": "521827d",
@@ -31,5 +53,16 @@
     "status": "SUCCESS",
     "exitCode": 0,
     "logs": "Initial repository setup"
+  },
+  {
+    "id": "DEP-733da09",
+    "source": "Git Commit",
+    "commitHash": "733da09",
+    "commitMessage": "feat: complete enterprise stack",
+    "author": "phuocadmin",
+    "timestamp": "2026-09-23T16:59:22.000Z",
+    "status": "SUCCESS",
+    "exitCode": 0,
+    "logs": "Commit [733da09] feat: complete enterprise stack bởi phuocadmin"
   }
 ]
