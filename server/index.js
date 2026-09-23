@@ -32,18 +32,25 @@ app.use(compression({
 
 app.use(cors());
 
-// Parse JSON đồng thời lưu lại rawBody để xác thực Webhook HMAC SHA256
+// Parse JSON đồng thời lưu lại rawBody để xác thực Webhook HMAC SHA256 (Tăng limit 50mb chống lỗi 413 Payload Too Large)
 app.use(express.json({
+  limit: '50mb',
   verify: (req, res, buf) => {
     req.rawBody = buf;
   }
 }));
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // Bật ETag cho HTTP Caching
 app.set('etag', 'strong');
 
-// Áp dụng Rate Limiting cho toàn bộ các route API
-app.use('/api/', apiLimiter);
+// Áp dụng Rate Limiting cho API (Bỏ qua GitHub Webhook vì đã được bảo vệ độc quyền bởi chữ ký HMAC SHA-256)
+app.use('/api/', (req, res, next) => {
+  if (req.path.startsWith('/webhook')) {
+    return next();
+  }
+  return apiLimiter(req, res, next);
+});
 
 // --- 1. API CACHING BENCHMARK & MULTI-TIER ENGINE ---
 app.get('/api/cache/benchmark', strictLimiter, async (req, res) => {

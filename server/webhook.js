@@ -17,7 +17,10 @@ export function verifyGitHubSignature(req) {
   const rawBody = req.rawBody || JSON.stringify(req.body);
   const hmac = crypto.createHmac('sha256', secret);
   const digest = `sha256=${hmac.update(rawBody).digest('hex')}`;
-  return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(digest));
+  const sigBuf = Buffer.from(signature);
+  const digBuf = Buffer.from(digest);
+  if (sigBuf.length !== digBuf.length) return false;
+  return crypto.timingSafeEqual(sigBuf, digBuf);
 }
 
 export function triggerAutoDeploy(source = 'GitHub Webhook') {
