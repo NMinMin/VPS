@@ -1,0 +1,651 @@
+Error: ENOENT: no such file or directory, stat '/home/io-phuoc-nodejs-sixforce/htdocs/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/io-phuoc-nodejs-sixforce/htdocs/dist/index.html'
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+express-rate-limit: async error during store initialization. Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+express-rate-limit: async error during store initialization. Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:47:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:41:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+express-rate-limit: async error during store initialization. Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+express-rate-limit: async error during store initialization. Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:47:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:41:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Error: Stream isn't writeable and enableOfflineQueue options is false
+    at EventEmitter.sendCommand (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/Redis.js:376:32)
+    at EventEmitter.<anonymous> (/home/io-phuoc-nodejs-sixforce/htdocs/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:23:37)
+    at RedisStore.sendCommand (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:74:49)
+    at RedisStore.loadIncrementScript (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:88:31)
+    at RedisStore.init (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/rate-limit-redis/dist/index.mjs:154:36)
+    at rateLimit (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:853:38)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/server/rateLimiter.js:17:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+◇ injected env (9) from .env
+◇ injected env (0) from .env
+◇ injected env (0) from .env
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}
+ValidationError: The 'X-Forwarded-For' header is set but the Express 'trust proxy' setting is false (default). This could indicate a misconfiguration which would prevent express-rate-limit from accurately identifying users. See https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/ for more information.
+    at Object.xForwardedForHeader (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:358:13)
+    at wrappedValidations.<computed> [as xForwardedForHeader] (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:683:22)
+    at Object.keyGenerator (file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:793:20)
+    at file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:883:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/io-phuoc-nodejs-sixforce/htdocs/node_modules/express-rate-limit/dist/index.mjs:836:5 {
+  code: 'ERR_ERL_UNEXPECTED_X_FORWARDED_FOR',
+  help: 'https://express-rate-limit.github.io/ERR_ERL_UNEXPECTED_X_FORWARDED_FOR/'
+}

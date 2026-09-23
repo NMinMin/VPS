@@ -1,69 +1,64 @@
-# 🚀 CloudPanel ReactJS - Multi-Tier Caching & Process Management Architecture
+# 🛡️ CloudPanel Enterprise Stack - Full-Stack DevOps & React Architecture
 
-Ứng dụng web Full-stack ReactJS tối ưu hiệu năng cao, tích hợp quản lý tiến trình chuyên nghiệp trên **CloudPanel**, cơ chế đệm dữ liệu đa tầng (**Multi-tier Caching**) với Redis và Memory LRU, cùng giải pháp tự động khởi động lại (**Auto-Start**) khi VPS Reboot.
-
----
-
-## 📌 1. Tổng quan Kiến trúc
-
-- **Tên miền & Vhost CloudPanel**: `phuoc-nodejs.sixforce.io.vn`
-- **Reverse Proxy**: Nginx tự động proxy HTTPS 443 về cổng nội bộ `127.0.0.1:3000`.
-- **Process Manager**: PM2 Cluster Mode (2 Workers tương ứng 2 CPU Cores), tự động load balancing và zero-downtime rolling reload.
-- **Tầng Caching Nâng cao**:
-  - **L1 (RAM)**: In-Memory LRU Cache độ trễ siêu thấp (< 0.2ms) lưu trữ hot data.
-  - **L2 (Redis)**: Kết nối Redis Server local `127.0.0.1:6379` lưu trữ và chia sẻ cache giữa các worker, không mất cache khi worker restart.
-  - **L3 (HTTP)**: Tối ưu `ETag`, `Cache-Control` (`stale-while-revalidate`), nén Gzip giảm kích thước payload.
-  - **Static Asset Cache**: Cache vĩnh viễn 1 năm (`max-age=31536000, immutable`) cho các bundle có hash (JS/CSS/Fonts).
+Ứng dụng web Full-stack ReactJS kết hợp hệ sinh thái **DevOps, Security, CI/CD, Multi-Tier Caching, MariaDB & Redis, Uptime Kuma Monitoring, và Encrypted Backup** vận hành hoàn hảo trên CloudPanel VPS.
 
 ---
 
-## 🛠️ 2. Lệnh Quản trị Nhanh (Cheat Sheet)
+## 📌 1. Danh sách 13 Hạng mục Kỹ thuật Đã Triển Khai Hoàn Tất
 
-### Build ứng dụng:
+| STT | Yêu cầu kỹ thuật | Hiện trạng & Vị trí |
+| :---: | :--- | :--- |
+| **1** | **MariaDB + Redis DB thứ 2** | ✅ **Hoạt động**: MariaDB `127.0.0.1:3306` (DB `Phuoc-NodeJS`) + Redis `127.0.0.1:6379` liên kết qua `server/db.js` và `server/cache.js`. |
+| **2** | **Bảo mật & Tối ưu DB** | ✅ **Hoạt động**: Bảng `access_logs` cấu hình `ROW_FORMAT=DYNAMIC`, tham số hóa truy vấn chống SQL Injection, lưu credentials trong `.env`. |
+| **3** | **Đánh chỉ mục (Index) cơ bản** | ✅ **Hoạt động**: Đã seed 10,000 bản ghi mẫu và đánh index trên cột `email` (`idx_email`) và composite `(action, created_at)`. |
+| **4** | **Giải trình EXPLAIN Đối chiếu** | ✅ **Hoạt động**: Công cụ EXPLAIN trực quan trong tab **DB & Giải Trình EXPLAIN**, so sánh Có Index (1 dòng quét) vs Không Index (10,012 dòng quét). |
+| **5** | **SSL & Cipher Suites cao nhất** | ✅ **Đã chuẩn bị**: File cấu hình Vhost `scripts/nginx-ssl-hardening.conf` (TLSv1.2, TLSv1.3, HSTS Preload, ChaCha20/AES-GCM). |
+| **6** | **Tường lửa UFW (80, 443, 22, 8443)** | ✅ **Sẵn sàng**: Script `scripts/setup-ufw.sh` chỉ mở cổng 22, 80, 443, 8443; chặn triệt để các cổng DB (3306, 6379, 3000) từ internet. |
+| **7** | **Chặn Brute-force & Rate Limit** | ✅ **Hoạt động**: `server/rateLimiter.js` kết nối Redis lưu lượng truy cập IP, chặn flood request (100 req/phút) và chống Brute-force (25 req/phút). |
+| **8** | **GitHub Webhook CI/CD** | ✅ **Hoạt động**: Endpoint `POST /api/webhook/github` xác thực chữ ký HMAC SHA-256 an toàn từ GitHub Secret. |
+| **9** | **Auto-deploy & Auto-rollback** | ✅ **Hoạt động**: Script `scripts/deploy-with-rollback.sh` tự động snapshot bản build, pull code, build Vite, reload PM2; tự động khôi phục bản cũ nếu build lỗi. |
+| **10** | **Uptime Kuma Giám sát VPS** | ✅ **Hoạt động**: Uptime Kuma đang chạy trực tiếp trên port `3001` quản lý bởi PM2. |
+| **11** | **Cảnh báo tức thời (Alert Daemon)** | ✅ **Hoạt động**: Daemon `server/alert-monitor.js` chạy ngầm kiểm tra CPU, RAM, Site; tự động bắn cảnh báo qua Telegram khi CPU/RAM > 85% hoặc web sập. |
+| **12** | **Backup CSDL nén tự động** | ✅ **Hoạt động**: Script `scripts/backup-db.sh` tự động dump MariaDB, nén Gzip level 9, lưu tại `backups/`. Đã lập lịch Cron lúc 02:00 AM hàng ngày. |
+| **13** | **Mã hóa AES-256 & Dọn dẹp 7 ngày** | ✅ **Hoạt động**: Mã hóa OpenSSL AES-256-CBC với mật khẩu bí mật; tự động xóa các file backup cũ hơn 7 ngày (`find -mtime +7 -delete`). |
+
+---
+
+## 🚀 2. Hướng Dẫn Vận Hành Nhanh (Cheatsheet)
+
+### 1. Truy cập Website Trực tiếp:
+👉 **[https://phuoc-nodejs.sixforce.io.vn/](https://phuoc-nodejs.sixforce.io.vn/)**
+- Chuyển đổi giữa các tab: **Multi-Tier Cache**, **DB & Giải Trình EXPLAIN**, **Tường Lửa UFW & SSL**, **GitHub Webhook CI/CD**, **Backup AES-256 & Alert Monitor**.
+
+### 2. Truy cập Uptime Kuma:
+Uptime Kuma đang lắng nghe tại `http://127.0.0.1:3001` (hoặc tạo một subdomain phụ `uptime.sixforce.io.vn` trên CloudPanel trỏ reverse proxy về port 3001 để truy cập qua web).
+
+### 3. Kích hoạt Tường lửa UFW:
+Chạy lệnh sau trên terminal SSH của VPS với quyền root:
 ```bash
-npm run build
+sudo bash scripts/setup-ufw.sh
 ```
 
-### Quản trị tiến trình qua PM2:
+### 4. Sao lưu & Khôi phục Cơ sở dữ liệu:
 ```bash
-# Xem trạng thái các worker PM2
-npm run pm2:status
+# Chạy sao lưu mã hóa AES-256 ngay lập tức:
+bash scripts/backup-db.sh
 
-# Tải lại zero-downtime (khi có code mới hoặc cấu hình mới)
-npm run pm2:reload
-
-# Khởi động lại toàn bộ
-npm run pm2:restart
-
-# Xem log thời gian thực
-pm2 logs phuoc-nodejs
-
-# Giám sát trực quan realtime CPU/RAM
-pm2 monit
+# Giải mã và khôi phục CSDL từ file backup mã hóa:
+bash scripts/restore-backup.sh backups/Phuoc-NodeJS_YYYYMMDD_HHMMSS.sql.gz.enc
 ```
 
----
+### 5. Cấu hình GitHub Webhook:
+- Vào Repository GitHub của bạn: **Settings** &gt; **Webhooks** &gt; **Add webhook**.
+- **Payload URL**: `https://phuoc-nodejs.sixforce.io.vn/api/webhook/github`
+- **Content type**: `application/json`
+- **Secret**: `phuoc_super_secure_webhook_secret_key_2026` (hoặc chuỗi bạn đổi trong file `.env`)
+- **Which events**: Chọn `Just the push event`.
 
-## 🔄 3. Kịch bản Tự động Khởi động (Auto-Start on VPS Reboot)
-
-Hệ thống đã được trang bị sẵn script tự động hóa:
-```bash
-bash setup-autostart.sh
+### 6. Cấu hình Nhận Cảnh Báo Telegram:
+Mở file `.env` và điền:
+```env
+ALERT_TELEGRAM_BOT_TOKEN=your_bot_token_here
+ALERT_TELEGRAM_CHAT_ID=your_chat_id_here
 ```
-
-### Cách thức hoạt động:
-1. **PM2 Dump**: Lưu snapshot trạng thái các tiến trình đang chạy (`pm2 save`).
-2. **Crontab `@reboot`**: Tự động phục hồi (`pm2 resurrect`) ngay khi hệ thống Linux khởi động, đảm bảo website luôn online kể cả khi reboot VPS bất ngờ.
-3. **Systemd User Unit**: Đăng ký dịch vụ `phuoc-nodejs.service` vào systemd user session để tự động giám sát và phục hồi.
-
----
-
-## 🧪 4. Kiểm tra Caching & APIs
-
-| Endpoint | Phương thức | Mô tả |
-| :--- | :--- | :--- |
-| `/api/cache/benchmark?type=analytics` | `GET` | Mô phỏng truy vấn dữ liệu nặng. Lần 1: MISS (~200ms), Lần 2+: HIT L1/L2 (< 1ms). |
-| `/api/cache/stats` | `GET` | Thống kê số lượng Request, L1 hits, L2 hits, Misses, Hit Rate, RAM Redis. |
-| `/api/cache/keys` | `GET` | Lấy danh sách các key đang lưu trong cache. |
-| `/api/cache/purge` | `POST` | Xóa key (`{ "key": "tên_key" }`) hoặc xóa sạch (`{ "key": "all" }`). |
-| `/api/system/health` | `GET` | Kiểm tra RAM, CPU, Uptime, Node.js version và tiến trình PM2. |
+Hệ thống sẽ lập tức gửi tin nhắn cảnh báo mỗi khi CPU > 85%, RAM > 85% hoặc website gặp sự cố!
