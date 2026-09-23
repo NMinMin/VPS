@@ -1,0 +1,35 @@
+{
+  "name": "phuoc-nodejs-cloudpanel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "High-Performance ReactJS with Multi-tier Caching and CloudPanel Process Management",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:stop": "pm2 stop phuoc-nodejs",
+    "pm2:restart": "pm2 restart phuoc-nodejs",
+    "pm2:reload": "pm2 reload phuoc-nodejs",
+    "pm2:status": "pm2 status"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.0",
+    "ioredis": "^5.4.1",
+    "lru-cache": "^10.2.2",
+    "mysql2": "^3.24.4",
+    "rate-limit-redis": "^6.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.3"
+  }
+}
